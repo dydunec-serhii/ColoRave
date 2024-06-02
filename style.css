@@ -2,13 +2,19 @@
     width: 1110px;
     outline: 2px red solid;
 }
+.header-ul li{
+    list-style: none;
+}
 .header-ul{
     gap: 29px;
-    display: flex;
-    justify-content: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .header-list{
     text-decoration: none;
+    margin-bottom:30px ;
+    margin-top: 30px;
 }
 .header-flex{
     display: flex;
@@ -16,6 +22,8 @@
 }
 .baground-header{
     background-color: #012D63;
+    width: 1110px;
+    height: 90px;
 }
 .header-img{
     margin-left:168px ;
