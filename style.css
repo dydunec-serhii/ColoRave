@@ -3,9 +3,18 @@
     outline: 2px red solid;
 }
 .header-ul li{
+    display: flex;
+    list-style: none;
+}
+.color-sectoin{
+    color: white;
+}
+.text-decoration{
+    text-decoration: none;
     list-style: none;
 }
 .header-ul{
+    display: flex;
     gap: 29px;
     color: white;
     margin-top: 30px;
@@ -23,12 +32,12 @@
 .baground-header{
     background-color: #012D63;
     width: 1110px;
-    height: 90px;
+}
+.header{
+    display: flex;
+    align-items: center;
 }
 .header-img{
-    margin-left:168px ;
-    margin-right:152px ;
-    margin: 0 auto;
 }
 .section-baground{
     background-image: url(group1.jpeg);
