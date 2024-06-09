@@ -69,11 +69,11 @@
     background-repeat: no-repeat;
 
 }
-
-.section-img {
-    background-image: url(group2.png);
-    width: 1440px;
-    height: 604px;
+.section-text{
+  width: 178px;
+}
+.section-img {  
+    width: 160px;
 }
 
 .header-heigh {
