@@ -72,15 +72,33 @@
 .section-text{
   width: 178px;
 }
-.section-img {  
-    width: 160px;
+.outline{
+    outline: 5px purple solid;
 }
-
+.text-align{
+    margin-top:130px ;
+    margin-bottom: 130px;
+}
+.align{
+    display: flex;
+    justify-content: center;
+    
+}
+.font{
+    font-size: 36px;
+}
+.section-img2{
+    background-image: url(group2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 606px;
+}
+.text-decoration2{
+    list-style: none;
+}
 .header-heigh {
     display: flex;
     align-items: center;
     height: 78px;
     justify-content: center;
 }
-
-.header-img {}
