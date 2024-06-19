@@ -63,7 +63,7 @@
 }
 
 .section-baground {
-    background-image: url(group1.jpeg);
+    background-image: url(./img/group1.jpeg);
     background-size: cover;
     height: 858px;
     background-repeat: no-repeat;
@@ -88,7 +88,7 @@
     font-size: 36px;
 }
 .section-img2{
-    background-image: url(group2.png);
+    background-image: url(./img/group2.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 606px;
