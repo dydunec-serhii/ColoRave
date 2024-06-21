@@ -188,6 +188,9 @@ justify-content: center;
     color: white;
     text-align: center;
 }
+.baground-footer{
+    background-color: #021635;
+}
 .baground-section{
     background-image: url();
     background-repeat: no-repeat;
