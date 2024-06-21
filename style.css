@@ -237,6 +237,13 @@
 .butt-{
     background-color: white;
     border: none;
+    margin-left: -257px;
+    height: 50px;
+    color: #d8d8d8;
+    width: 250px;
+    font-size: 28px;
+    border-radius: 50px;
+    font-family: "Roboto", sans-serif;
 }
 
 #email{
@@ -246,4 +253,17 @@
     border-radius: 50px;
     border: none;
     margin-top: 33px;
+    color: #d8d8d8;
+    font-size: 28px;
+}
+
+#country{
+    margin-left: 650px;
+    height: 60px;
+    width: 550px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 19px;
+    color: #d8d8d8;
+    font-size: 28px;
 }
