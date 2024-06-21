@@ -139,7 +139,10 @@
   list-style: none;
   order: 2;
 }
-
+.justify{
+    display: flex;
+justify-content: center;
+}
 .cards-3{
       background-image: linear-gradient(
     #ffe128 0%,
@@ -174,6 +177,7 @@
 
 .h2-{
     margin: 0;
+    gap: 93px;
 }
 
 .cards-h2{
@@ -184,7 +188,12 @@
     color: white;
     text-align: center;
 }
-
+.baground-section{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 509px;
+}
 .butto{
     color: white;
     background-color: #8E32C6;
@@ -193,4 +202,7 @@
     height: 67px;
     border-radius: 10px;
     font-size: 24px;
+}
+.display{
+    
 }
