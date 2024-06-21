@@ -13,7 +13,7 @@
 
 .font {
     font-size: 144px;
-    font-family:"Playfair Display", sans-serif ;
+    font-family: "Playfair Display", sans-serif;
     font-weight: 400;
 }
 
@@ -72,30 +72,37 @@
     background-repeat: no-repeat;
 
 }
-.section-text{
-  width: 178px;
+
+.section-text {
+    width: 178px;
 }
-.outline{
+
+.outline {
     outline: 5px purple solid;
 }
-.text-align{
-    margin-top:130px ;
+
+.text-align {
+    margin-top: 130px;
     margin-bottom: 130px;
 }
-.align{
+
+.align {
     display: flex;
     justify-content: center;
-    
+
 }
-.section-img2{
+
+.section-img2 {
     background-image: url(./img/group2.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 606px;
 }
-.text-decoration2{
+
+.text-decoration2 {
     list-style: none;
 }
+
 .header-heigh {
     display: flex;
     align-items: center;
@@ -104,17 +111,15 @@
 }
 
 .li- {
-  width: 350px;
-  height: 406px;
+    width: 350px;
+    height: 406px;
 }
 
-.cards{
-    background-image: linear-gradient(
-      #00e5e6 7%,
-      #00a8f7 26%,
-      #9a76f9 63%,
-      #cc5ec2 100%
-    );
+.cards {
+    background-image: linear-gradient(#00e5e6 7%,
+            #00a8f7 26%,
+            #9a76f9 63%,
+            #cc5ec2 100%);
     width: 255px;
     height: 292px;
     margin-left: 348px;
@@ -124,41 +129,39 @@
     order: 1;
 }
 
-.cards-2{
-      background-image: linear-gradient(
-    #ff68b4 0%,
-    #ff45e1 26%,
-    #ce3aff 63%,
-    #8961ff 100%
-  );
-  box-shadow: 0px 10px 2px 5px #ff45e1, 0px 25px 2px 5px #ce3aff;
+.cards-2 {
+    background-image: linear-gradient(#ff68b4 0%,
+            #ff45e1 26%,
+            #ce3aff 63%,
+            #8961ff 100%);
+    box-shadow: 0px 10px 2px 5px #ff45e1, 0px 25px 2px 5px #ce3aff;
 
-  width: 255px;
-  height: 292px;
-  border-radius: 15px;
-  list-style: none;
-  order: 2;
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+    list-style: none;
+    order: 2;
 }
-.justify{
+
+.justify {
     display: flex;
-justify-content: center;
-}
-.cards-3{
-      background-image: linear-gradient(
-    #ffe128 0%,
-    #ff9b5c 30%,
-    #ff8381 63%,
-    #ff5489 100%
-  );
-  box-shadow: 0px 10px 1px 5px #ff5489, 0px 25px 1px 5px #ff8381;
-  width: 255px;
-  height: 292px;
-  border-radius: 15px;
-  list-style: none;
-  order: 3;
+    justify-content: center;
 }
 
-.review-backgr{
+.cards-3 {
+    background-image: linear-gradient(#ffe128 0%,
+            #ff9b5c 30%,
+            #ff8381 63%,
+            #ff5489 100%);
+    box-shadow: 0px 10px 1px 5px #ff5489, 0px 25px 1px 5px #ff8381;
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+    list-style: none;
+    order: 3;
+}
+
+.review-backgr {
     background-image: url(./img/review.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,8 +169,8 @@ justify-content: center;
     margin: 0;
 }
 
-.review{
-        background-image: url(./img/review.png);
+.review {
+    background-image: url(./img/review.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100px;
@@ -175,29 +178,36 @@ justify-content: center;
     margin-left: 10px;
 }
 
-.h2-{
+.h2- {
     margin: 0;
     gap: 93px;
 }
 
-.cards-h2{
+.cards-h2 {
     margin: 0;
 }
 
-.li-h2{
+.li-h2 {
     color: white;
     text-align: center;
 }
-.baground-footer{
+
+.color {
+    color: #ffffff;
+}
+
+.baground-footer {
     background-color: #021635;
 }
-.baground-section{
+
+.baground-section {
     background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     height: 509px;
 }
-.butto{
+
+.butto {
     color: white;
     background-color: #8E32C6;
     border: none;
@@ -206,6 +216,5 @@ justify-content: center;
     border-radius: 10px;
     font-size: 24px;
 }
-.display{
-    
-}
+
+.display {}
