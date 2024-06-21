@@ -24,9 +24,6 @@
 .color-sectoin {
     color: white;
 }
-.display-footer{
-    
-}
 .text-decoration {
     text-decoration: none;
     list-style: none;
@@ -235,4 +232,18 @@
     background-image: url(./img/order.png);
     background-size: cover;
     height: 509px;
+}
+
+.butt-{
+    background-color: white;
+    border: none;
+}
+
+#email{
+    margin-left: 600px;
+    width: 690px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 33px;
 }
