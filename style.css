@@ -1,77 +1,80 @@
 .container {
-    width: 1110px;
-    outline: 2px red solid;
-    margin: 0 auto;
-
+  width: 1110px;
+  outline: 2px red solid;
+  margin: 0 auto;
 }
 
 .header-ul li {
-    display: flex;
-    list-style: none;
-    margin: 0;
+  display: flex;
+  list-style: none;
+  margin: 0;
 }
 
 .font {
+<<<<<<< Updated upstream
     font-size: 144px;
     font-family: "Playfair Display", sans-serif;
     font-weight: 400;
+=======
+  font-size: 144px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+>>>>>>> Stashed changes
 }
 
 .font2 {
-    font-size: 72px;
+  font-size: 72px;
 }
 
 .color-sectoin {
-    color: white;
+  color: white;
 }
 
 .text-decoration {
-    text-decoration: none;
-    list-style: none;
-
+  text-decoration: none;
+  list-style: none;
 }
 
 .header- {
-    align-items: center;
+  align-items: center;
 }
 
 .header-ul {
-    display: flex;
-    gap: 29px;
-    color: white;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  display: flex;
+  gap: 29px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .header-list {
-    text-decoration: none;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    padding-left: 0;
+  text-decoration: none;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-left: 0;
 }
 
 .header-flex {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .baground-header {
-    background-color: #012D63;
-
+  background-color: #012d63;
 }
 
 .header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .section-baground {
-    background-image: url(./img/group1.jpeg);
-    background-size: cover;
-    height: 858px;
-    background-repeat: no-repeat;
-
+  background-image: url(./img/group1.jpeg);
+  background-size: cover;
+  height: 858px;
+  background-repeat: no-repeat;
 }
+<<<<<<< Updated upstream
 
 .section-text {
     width: 178px;
@@ -101,13 +104,37 @@
 
 .text-decoration2 {
     list-style: none;
+=======
+.section-text {
+  width: 178px;
+}
+.outline {
+  outline: 5px purple solid;
+}
+.text-align {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+.align {
+  display: flex;
+  justify-content: center;
+}
+.section-img2 {
+  background-image: url(./img/group2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 606px;
+}
+.text-decoration2 {
+  list-style: none;
+>>>>>>> Stashed changes
 }
 
 .header-heigh {
-    display: flex;
-    align-items: center;
-    height: 78px;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 78px;
+  justify-content: center;
 }
 
 .li- {
@@ -116,6 +143,7 @@
 }
 
 .cards {
+<<<<<<< Updated upstream
     background-image: linear-gradient(#00e5e6 7%,
             #00a8f7 26%,
             #9a76f9 63%,
@@ -218,3 +246,125 @@
 }
 
 .display {}
+=======
+  background-image: linear-gradient(
+    #00e5e6 7%,
+    #00a8f7 26%,
+    #9a76f9 63%,
+    #cc5ec2 100%
+  );
+  width: 255px;
+  height: 302px;
+  list-style: none;
+  border-radius: 15px;
+  box-shadow: 0px 10px 1px 5px #9a76f9, 0px 25px 1px 5px #00a8f7;
+  order: 1;
+  margin-right: 93px;
+}
+
+.cards-2 {
+  background-image: linear-gradient(
+    #ff68b4 0%,
+    #ff45e1 26%,
+    #ce3aff 63%,
+    #8961ff 100%
+  );
+  box-shadow: 0px 10px 2px 5px #ff45e1, 0px 25px 2px 5px #ce3aff;
+
+  width: 255px;
+  height: 302px;
+  border-radius: 15px;
+  list-style: none;
+  order: 2;
+  margin-right: 93px;
+}
+.justify {
+  display: flex;
+  justify-content: center;
+}
+.cards-3 {
+  background-image: linear-gradient(
+    #ffe128 0%,
+    #ff9b5c 30%,
+    #ff8381 63%,
+    #ff5489 100%
+  );
+  box-shadow: 0px 10px 1px 5px #ff5489, 0px 25px 1px 5px #ff8381;
+  width: 255px;
+  height: 302px;
+  border-radius: 15px;
+  list-style: none;
+  order: 3;
+}
+
+.review-backgr {
+  background-image: url(./img/review.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 520px;
+  margin: 0;
+}
+
+.review {
+  background-image: url(./img/review.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  margin: 0;
+}
+
+.h2- {
+  margin: 0;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  margin-left: 850px;
+}
+
+.cards-h2 {
+  margin-left: 13px;
+  margin-top: 49px;
+  color: white;
+}
+
+.li-h2 {
+  color: white;
+  text-align: center;
+}
+.baground-section {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 509px;
+}
+.butto {
+  color: white;
+  background-color: #8e32c6;
+  border: none;
+  width: 254px;
+  height: 67px;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+.h2-review {
+  color: white;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.review-p{
+    color: #d8d8d8;
+    font-size: 12px;
+      font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+/* .img-cards{
+    margin-left: 13px;
+} */
+>>>>>>> Stashed changes
