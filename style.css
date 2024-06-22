@@ -1,10 +1,16 @@
+:root{
+    --header-text: #C7C7C7;
+    --gmail-section: #959595;
+}
 .container {
     width: 1110px;
-    outline: 2px red solid;
+    outline: 2px rgb(89, 89, 89) solid;
     margin: 0 auto;
 
 }
-
+.color{
+  color: var(--gmail-section);
+}
 .header-ul li {
     display: flex;
     list-style: none;
@@ -52,6 +58,8 @@
 .header-flex {
     display: flex;
     flex-wrap: wrap;
+    
+    
 }
 
 .baground-header {
@@ -199,7 +207,10 @@
 .baground-footer {
     background-color: #021635;
 }
-
+.type{
+    display: flex;
+    justify-content: center;
+}
 .baground-section {
     background-image: url();
     background-repeat: no-repeat;
