@@ -1,6 +1,6 @@
 :root{
     --header-text: #C7C7C7;
-    --gmail-section: #959595;
+    --gmail-section: #959595
 }
 .container {
     width: 1110px;
@@ -8,13 +8,17 @@
     margin: 0 auto;
 
 }
-.color{
-  color: var(--gmail-section);
+.color2{
+    color: var(--gmail-section);
+}
+.color3{
+    color: white;
 }
 .header-ul li {
     display: flex;
     list-style: none;
     margin: 0;
+    
 }
 
 .font {
@@ -47,12 +51,15 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
-.header-list {
+.color3:hover{
+color: var(--header-text);
+}
+.header-list{
     text-decoration: none;
     margin-bottom: 30px;
     margin-top: 30px;
     padding-left: 0;
+
 }
 
 .header-flex {
