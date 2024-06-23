@@ -7,6 +7,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title>ColoRawe</title>
   <link rel="icon" href="./img/logo.png" />
   <link rel="stylesheet" href="style.css">
@@ -30,25 +33,24 @@
   </header>
   <main>
 
-    .
     <section class="section-baground ">
       <div class="container">
         <img src="./img/logo.png" alt="nike" class="section-img">
         <ul class="text-decoration">
-          <li class="color-sectoin section-text"><span>С&R</span></li>
+          <li class="color-sectoin section-text text-decor"><span>С&R</span></li>
           <li>
             <h1 class="color-sectoin font">ColoRawe</h1>
           </li>
           <li>
-            <h2 class="color-sectoin font2">Your dream Nike</h2>
+            <h2 class="color-sectoin font2 text-align2">Your dream Nike</h2>
           </li>
           <li>
-            <p class="color-sectoin">On this site you can find custom Nike sneakers of your dreams.
+            <p class="color-sectoin container2 margin">On this site you can find custom Nike sneakers of your dreams.
               The original company caт`t create such beautiful
               sneakers as we do.
               Good luck finding your way in the world of custom sneakers.</p>
           </li>
-          <li class="button-section"><button class="butto" type="button">Buy my Nike</button></li>
+          <li class="button-section"><button class="butto" type="button  text-margin">Buy my Nike</button></li>
         </ul>
     </section>
     <section class="section-img2">
@@ -87,10 +89,14 @@
               Sneakers are very comfortable and well painted, nothing has worn
               off in a year.
             </h2>
-            <p>25.11</p>
-            <img class="img-cards" src="./img/john.png" alt="man" />
-            <p class="h2-review color3">John Teylor</p>
-            <p class="review-p color3">With us from 2018</p>
+            <p class="color3">25.11</p>
+            <div class="info-flex">
+              <img class="img-cards" src="./img/john.png" alt="man" />
+              <div>
+                <p class="h2-review ">John Teylor</p>
+                <p class="review-p color3">With us from 2018</p>
+              </div>
+            </div>
           </li>
           <li class="cards-2">
             <h2 class="cards-h2 color3">
@@ -98,8 +104,10 @@
             </h2>
             <p class="color3">05.01 </p>
             <img class="img-cards" src="./img/woman.png" alt="woman" />
-            <p class="h2-review color3">Elizabeth Garsia</p>
-            <p class="review-p color3">With us from 2020</p>
+            <div>
+              <p class="h2-review ">Elizabeth Garsia</p>
+              <p class="review-p color3">With us from 2020</p>
+            </div>
           </li>
           <li class="cards-3">
             <h2 class="cards-h2 color3">
@@ -108,42 +116,57 @@
             </h2>
             <p class="color3">18.06</p>
             <img class="img-cards" src="./img/tom.png" alt="second man" />
-            <p class="h2-review color3">Tom Maquare</p>
+            <p class="h2-review">Tom Maquare</p>
             <p class="review-p color3">With us from 2019</p>
           </li>
         </ul>
       </section>
       <section>
         <div class="baground-section display">
-<form action="">
-          <h2 class="h2-">Order</h2>
-          <input type="text" id="email" name="Write your email" placeholder="Write your email" class="color2">
-          <button type="submit" class="butt-">Confirm</button>
-          <br>
-          <input type="text" id="country" name="Your Country" placeholder="Your Country"class="color2">
-          <br>
-          <input type="text" id="country" name="Your City" placeholder="Your City" class="color2">
-          <br>
-          <input type="text" id="country" name="Your Adress" placeholder="Your Adress" class="color2">
-          <br>
-          <button class="type" type="button">Order my Nike</button>
+          <form action="">
+            <h2 class="h2-">Order</h2>
+            <input type="text" id="email" name="Write your email" placeholder="Write your email" class="color2">
+            <button type="submit" class="butt-">Confirm</button>
+            <br>
+            <input type="text" id="country" name="Your Country" placeholder="Your Country" class="color2">
+            <br>
+            <input type="text" id="country" name="Your City" placeholder="Your City" class="color2">
+            <br>
+            <input type="text" id="country" name="Your Adress" placeholder="Your Adress" class="color2">
+            <br>
+            <button class="btn-order" type="button">Order my Nike</button>
+          </form>
       </section>
-      </form> 
   </main>
   <footer>
-    <div class="baground-footer">
 
-      <ul class="text-decoration display-footer">
-        <li><span class="color">Have a question?</span></li>
-        <li><span class="color">Have a proposal for cooperation?</span></li>
-        <li><span class="color">Advertising questions?</span></li>
-      </ul>
-      <ul class="text-decoration display-footer2">
-        <li><a class="color" href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a></li>
-        <li><a class="color" href="mailto:ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a></li>
-        <li><a class="color" href="mailto:ColoRawe_Advertising">ColoRawe_Advertising</a></li>
-      </ul>
+    <div class="baground-footer">
+      <div class="container">
+        <div class="flex-container">
+          <ul class="text-decoration display-footer">
+            <li><span class="color">Have a question?</span></li>
+            <li><span class="color">Have a proposal for cooperation?</span></li>
+            <li><span class="color">Advertising questions?</span></li>
+          </ul>
+          <ul class="text-decoration display-footer2">
+            <li><a class="color" href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a></li>
+            <li><a class="color" href="mailto:ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a></li>
+            <li><a class="color" href="mailto:ColoRawe_Advertising">ColoRawe_Advertising</a></li>
+          </ul>
+        </div>
+        <div class="footer-text-bottom">
+          <ul class="footer-decoration">
+            <li class="text-align">2022 ColoRawe @All rights reserved</li>
+            <li>United States</li>
+          </ul>
+          <div>
+            <img src="img/logo.png" alt="logo">
+            <p class="footer-decoration2 text-line">С&R</p>
+          </div>
+        </div>
+      </div>
     </div>
+
   </footer>
 </body>
 
