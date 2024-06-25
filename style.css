@@ -26,10 +26,12 @@ body {
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0%;
+    margin-top: 3px;
     
 }
 .info-flex{
     display: flex;
+    align-items: center;
 }
 .header-ul li {
     display: flex;
@@ -116,8 +118,8 @@ body {
 
 }
 .img-cards{
-    width: 31px;
-    height: 31px;
+    width: 38px;
+    height: 38px;
 }
 
 
@@ -195,9 +197,9 @@ body {
     list-style: none;
     border-radius: 15px;
     box-shadow: 0px 10px 1px 5px #9a76f9, 0px 25px 1px 5px #00a8f7;
+    padding: 49px 12px 30px 12px;
     order: 1;
     margin-right: 93px;
-    padding: 49px 12px 30px 12px;
 }
 
 .cards-2 {
@@ -214,7 +216,24 @@ body {
     order: 2;
     margin-right: 93px;
 }
+.flex-box{
+    margin-top: 63px;
+}
+.flex-box2{
+    margin-top: 39px;
+}
+.flex2{
+    margin-top: 10px;
+}
+.box-flex2{
+margin-top: 36px;
+}
 
+.box-flex{
+  margin-top: 63px;
+  width: 37px;
+ height: 38px;
+}
 .justify {
     display: flex;
     justify-content: center;
@@ -226,12 +245,12 @@ body {
             #ff8381 63%,
             #ff5489 100%);
     box-shadow: 0px 10px 1px 5px #ff5489, 0px 25px 1px 5px #ff8381;
+    padding: 49px 12px 30px 12px;
     width: 255px;
     height: 292px;
     border-radius: 15px;
     list-style: none;
     order: 3;
-    padding: 49px 12px 30px 12px;
 }
 
 .review-backgr {
