@@ -120,8 +120,12 @@ body {
 .img-cards{
     width: 38px;
     height: 38px;
+    margin-right: 5px;
+    margin-top: 10px;
 }
-
+.flex-p{
+    margin-top: -16px;
+}
 
 .outline {
     outline: 5px purple solid;
@@ -223,14 +227,14 @@ body {
     margin-top: 39px;
 }
 .flex2{
-    margin-top: 10px;
+    margin-top: -19px;
 }
 .box-flex2{
-margin-top: 36px;
+margin-top: 10px;
 }
 
 .box-flex{
-  margin-top: 63px;
+  margin-top: 37px;
   width: 37px;
  height: 38px;
 }
@@ -367,7 +371,14 @@ margin-top: 36px;
     border: none;
     margin-top: 13px;
 }
-
+.design{
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+}
 .butto {
     color: white;
     background-color: #8E32C6;
